@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "envCleaner"
+version = "0.1.0"
+description = "A simple Python tool that helps identify and delete unused virtual environments (venv) in your project folders. This CLI helps keep your system organized and frees up disk space."
+authors = ["kayqueGovetri <govetriKayque@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.12.5"
+
+[tool.poetry.scripts]
+envCleaner = "envcleaner.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
