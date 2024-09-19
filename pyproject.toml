@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "envCleaner"
-version = "0.1.0"
+version = "0.2.0"
 description = "A simple Python tool that helps identify and delete unused virtual environments (venv) in your project folders. This CLI helps keep your system organized and frees up disk space."
 authors = ["kayqueGovetri <govetriKayque@gmail.com>"]
 readme = "README.md"
